@@ -1,0 +1,19 @@
+@import '../../scss/vars.scss';
+@import '../../scss/mixins.scss';
+
+.footer {
+  background: $pink;
+  bottom: 0;
+  height: 50px;
+  overflow: hidden;
+  position: absolute;
+  width: 100vw;
+  @include flex(row, center, center);
+
+  h1 {
+    color: $white;
+    font-family: $font-header;
+    font-size: $font-large;
+    letter-spacing: .6px;
+  }
+}

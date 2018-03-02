@@ -1,0 +1,17 @@
+@import url("https://fonts.googleapis.com/css?family=Reem+Kufi|Roboto:300");
+.footer {
+  background: #FC3271;
+  bottom: 0;
+  height: 50px;
+  overflow: hidden;
+  position: absolute;
+  width: 100vw;
+  align-items: center;
+  display: flex;
+  flex-direction: row;
+  justify-content: center; }
+  .footer h1 {
+    color: #fff;
+    font-family: "Reem Kufi", sans-serif;
+    font-size: 25px;
+    letter-spacing: .6px; }

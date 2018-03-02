@@ -1,0 +1,64 @@
+@import url("https://fonts.googleapis.com/css?family=Reem+Kufi|Roboto:300");
+.form {
+  height: calc(100vh - 130px);
+  min-height: 325px;
+  overflow: auto;
+  position: absolute;
+  top: 80px;
+  width: 100vw; }
+  .form form {
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center; }
+    .form form div {
+      max-width: 450px;
+      width: 95%;
+      align-items: flex-start;
+      display: flex;
+      flex-direction: column;
+      justify-content: flex-start; }
+    .form form h1, .form form label {
+      color: #4d5957;
+      font-weight: 300;
+      letter-spacing: .5px; }
+    .form form h1 {
+      font-family: "Reem Kufi", sans-serif;
+      font-size: 25px;
+      font-weight: 600; }
+    .form form h5 {
+      color: #C3C4C5;
+      font-weight: 300;
+      letter-spacing: 1px;
+      margin: 0 0 20px 0; }
+    .form form label {
+      color: #4d5957;
+      font-family: "Reem Kufi", sans-serif;
+      font-size: 20px;
+      padding: 10px 0; }
+    .form form input {
+      background: rgba(254, 231, 76, 0.4);
+      border: 2px solid #FC3271;
+      box-shadow: 0 1px 3px rgba(0, 0, 0, 0.12), 0 1px 2px rgba(0, 0, 0, 0.24);
+      color: #4d5957;
+      font-size: 20px;
+      padding: 0; }
+    .form form input[type='text'], .form form input[type='number'], .form form input[type='date'] {
+      height: 40px;
+      text-indent: 10px;
+      width: calc(100% - 4px); }
+    .form form input[type='submit'] {
+      background: #FC3271;
+      box-shadow: 0 1px 3px rgba(0, 0, 0, 0.12), 0 1px 2px rgba(0, 0, 0, 0.24);
+      color: #fff;
+      font-size: 20px;
+      font-weight: 600;
+      height: 55px;
+      letter-spacing: .5px;
+      margin-top: 50px;
+      width: 200px; }
+      .form form input[type='submit']:disabled {
+        background: rgba(195, 196, 197, 0.7);
+        box-shadow: none;
+        border: 2px solid #C3C4C5;
+        color: #fff; }

@@ -1,0 +1,14 @@
+// flex
+@mixin flex($direction: row, $justify: flex-start, $align: flex-start) {
+  align-items: $align;
+  display: flex;
+  flex-direction: $direction;
+  justify-content: $justify;
+}
+
+// media query
+@mixin mq($size) {
+  @if $size == large {
+    @media (min-width: 900px) { @content; }
+  }
+}

@@ -1,0 +1,48 @@
+@import url("https://fonts.googleapis.com/css?family=Reem+Kufi|Roboto:300");
+.header {
+  background: #1EBEA5;
+  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.12), 0 1px 2px rgba(0, 0, 0, 0.24);
+  font-family: "Reem Kufi", sans-serif;
+  height: 80px;
+  overflow: hidden;
+  position: absolute;
+  top: 0;
+  width: 100vw;
+  align-items: center;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between; }
+  .header .header-logo {
+    align-items: center;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around; }
+  .header .header-icon {
+    border: 2px solid #FEE74C;
+    border-radius: 50%;
+    color: #fff;
+    height: 30px;
+    margin: 0 10px;
+    padding: 7px;
+    width: 30px; }
+  .header h1 {
+    color: #fff;
+    font-size: 25px;
+    letter-spacing: .5px; }
+  .header ul {
+    list-style: none;
+    min-width: 175px;
+    padding: 0;
+    width: 30%;
+    align-items: center;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around; }
+    .header ul li a {
+      color: #fff;
+      letter-spacing: 0.5px;
+      text-decoration: none; }
+      .header ul li a:hover, .header ul li a:active {
+        color: #FEE74C; }
+  .header .active {
+    color: #FEE74C; }

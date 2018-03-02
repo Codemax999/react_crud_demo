@@ -1,0 +1,7 @@
+@import url("https://fonts.googleapis.com/css?family=Reem+Kufi|Roboto:300");
+.app {
+  background: #fff;
+  height: 100vh; }
+  .app .view-container {
+    height: 100%;
+    overflow: hidden; }

@@ -1,0 +1,8 @@
+@import '../../scss/vars.scss';
+@import '../../scss/mixins.scss';
+
+#AreaChart {
+  @include flex(row, center, center);
+  height: calc(100% - 95px) !important;
+  margin-top: 85px !important;
+}

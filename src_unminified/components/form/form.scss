@@ -1,0 +1,81 @@
+@import '../../scss/vars.scss';
+@import '../../scss/mixins.scss';
+
+.form {
+  height: calc(100vh - 130px);
+  min-height: 325px;
+  overflow: auto;
+  position: absolute;
+  top: 80px;
+  width: 100vw;
+  
+  form {
+    @include flex(column, center, center);
+
+    div {
+      max-width: 450px;
+      width: 95%;
+      @include flex(column, flex-start, flex-start);
+    }
+
+    h1, label {
+      color: $black;
+      font-weight: 300;
+      letter-spacing: .5px;
+    }
+
+    h1 {
+      font-family: $font-header;
+      font-size: $font-large;
+      font-weight: 600;
+    }
+
+    h5 {
+      color: $gray;
+      font-weight: 300;
+      letter-spacing: 1px;
+      margin: 0 0 20px 0;
+    }
+
+    label {
+      color: $black;
+      font-family: $font-header;
+      font-size: $font-medium;
+      padding: 10px 0;
+    }
+
+    input {
+      background: rgba($color: $yellow, $alpha: 0.4);
+      border: 2px solid $pink;
+      box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);
+      color: $black;
+      font-size: $font-medium;
+      padding: 0;
+    }
+
+    input[type='text'], input[type='number'], input[type='date'] {
+      height: 40px;
+      text-indent: 10px;
+      width: calc(100% - 4px);
+    }
+
+    input[type='submit'] {
+      background: $pink;
+      box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);
+      color: $white;
+      font-size: $font-medium;
+      font-weight: 600;
+      height: 55px;
+      letter-spacing: .5px;
+      margin-top: 50px;
+      width: 200px;
+
+      &:disabled { 
+        background: rgba($color: $gray, $alpha: 0.7);
+        box-shadow: none;
+        border: 2px solid $gray;
+        color: $white;
+      }
+    }
+  }
+}

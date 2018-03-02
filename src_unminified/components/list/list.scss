@@ -1,0 +1,29 @@
+@import '../../scss/vars.scss';
+@import '../../scss/mixins.scss';
+
+.list {
+  @include flex(column, center, center);
+
+  .list-title {
+    height: 50px;
+    max-width: 450px;
+    min-height: 50px;
+    width: 95%;
+    @include flex(column, flex-start, flex-start);
+
+    h1 {
+      color: $white;
+      font-size: $font-large;
+      font-weight: 600;
+      letter-spacing: .5px;
+    }
+  } 
+
+  ul {
+    list-style: none;
+    margin: 0 auto;
+    padding: 0;
+    width: 95%;
+    @include flex(column, center, center);
+  }
+}

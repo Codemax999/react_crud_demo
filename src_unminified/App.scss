@@ -1,0 +1,11 @@
+@import './scss/vars.scss';
+
+.app {
+  background: $white;
+  height: 100vh;
+
+  .view-container {
+    height: 100%;
+    overflow: hidden;
+  }
+}
