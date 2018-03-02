@@ -8,7 +8,7 @@
       "type": "image/svg"
     }
   ],
-  "start_url": "./index.html",
+  "start_url": "https://codemax999.github.io/react_crud_demo/",
   "display": "standalone",
   "theme_color": "#000000",
   "background_color": "#ffffff"
